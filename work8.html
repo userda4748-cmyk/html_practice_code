@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>restaurant</title>
+<style>
+.images {
+display:flex;
+gap:20px;
+}
+.images img{
+object-fit:cover;
+}
+.para {
+    width: 70%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.e1 { border:4px solid black;
+}
+</style>
+</head>
+<body>
+<h1 style="color:blue">Lovely Restuarant</h1>
+<q><i>A treat to your taste buds</i></q>
+<br>
+<hr style="size=5px">
+<br>
+<h2 style="color:grey"><i>Cafe_your all time destination</i></h2>
+<p class="para">The café is a comfortable and welcoming place where students can relax, meet friends, and enjoy delicious food and beverages.
+It provides a pleasant atmosphere with convenient seating and a variety of options suitable for breakfast, lunch, snacks,
+or a quick break between classes. The café is easily accessible and is a great spot for students to
+spend time and refresh themselves.</p>
+<br>
+<div class="images">
+<figure>
+<img src="image.food1.jpg" alt="Food1" width="200px" height="290px">
+<figcaption style="font:bold">Cozy ambience</figcaption>
+</figure>
+<figure>
+<img src="image.food3.jpg" alt="food3" width="200px">
+<figcaption style="font:bold">Enriching food</figcaption>
+</figure>
+<figure>
+<img src="image.food4.jpg" alt="food4" width="200px">
+<figcaption style="font:bold">Heartfelt recipe<figcaption>
+</figure>
+</div>
+<br>
+<hr>
+<br>
+<fieldset>
+<legend class="e1">Select your food in accordance with your mood</legend> 
+<label>Spicy Food</label>
+<input type="radio" name="S">
+<label>Deserts</label>
+<input type="radio" name="s">
+<label>Bevrages</label>
+<input type="radio" name="s">
+</fieldset>
+<br>
+<br>
+<h2 class="e1">View the offers for your <mark>selected option</mark></h2>
+<label>Availabilities</label>
+<select>
+<option>spicy-25% offer</option>
+<option>desert-10% offer</option>
+<option>beverages-30% offer</option>
+</select>
+<br>
+<br>
+<h2 class="e1">Type your favourite beverages</h2>
+<datalist>
+<option>chicken 65</option>
+<option>Briyani</option>
+<option>dragon chicken</option>
+<option>chicken tandoori</option>
+<option>fish 65</option>
+</datalist>
+<br>
+<br>
+<table cellpadding:5px, cellspacing:10px>
+<tr>
+<th style="color:Blue">Food items</th>
+<td>Spicy food</td>
+<td>cold food</td>
+<td>Beverages</td>
+<td>Hot food</td>
+<td>Shakes</td>
+</tr>
+<tr>
+<th style="color:Red">Prices</th>
+<td>RS.450</td>
+<td>RS.520</td>
+<td>RS.360</td>
+<td>RS.180</td>
+<td>RS.780</td>
+</tr>
+<tr>
+<th style="color:Yellow">Offers applied</th>
+<td>25%</td>
+<td>38%</td>
+<td>56%</td>
+<td>29%</td>
+<td>30%</td>
+</tr>
+</table>
+<br>
+<br>
+<label class="e1">Select Your Location</label>
+<br>
+<select>
+<option>Chennai</option>
+<option>Coimbatore</option>
+<option>Cuddalore</option>
+<option>Erode</option>
+<option>Tiruppur</option>
+</select>
+</body>
+</html>
